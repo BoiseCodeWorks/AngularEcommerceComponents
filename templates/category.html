@@ -1,0 +1,8 @@
+<h1>Category</h1>
+
+<div class="product" ng-repeat="item in cc.items track by $index">
+	<product item="item"></product>
+</div>
+<div class="text-center">
+	<ul uib-pagination direction-links="false" total-items="cc.totalItems" ng-model="cc.currentPage" ng-change="cc.pageChanged()" max-size="10"></ul>
+</div>

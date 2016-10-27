@@ -1,0 +1,10 @@
+<div>
+	<img ng-src="{{ pc.item.mediumImage }}"/>
+	<h5>{{ pc.item.name }}</h5>
+	<h5>{{ pc.item.salePrice | currency }}</h5>
+	<div>
+		<button type="button" class="btn btn-primary" ng-click="pc.showDetails(pc.item.itemId)">Details</button>
+		<button type="button" class="btn btn-primary" ng-click="pc.addToCart(pc.item)">Buy</button>
+	</div>
+	
+</div>

@@ -129,3 +129,12 @@ svg text:first-of-type {
   fill: #000;
   transform: translate(0 50%);
 }
+
+.product {
+  display: inline-block;
+  margin: 3px;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 250px;
+  max-width: 250px;
+}
