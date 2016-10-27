@@ -13,9 +13,9 @@
 
 	function StoreLocator($rootScope, NgMap) {
 
-		let mc = this;
+		let slc = this;
 
-		let locations = [{
+		slc.markers = [{
 			"no": 3094,
 			"name": "Boise Walmart Neighborhood Market",
 			"country": "US",
